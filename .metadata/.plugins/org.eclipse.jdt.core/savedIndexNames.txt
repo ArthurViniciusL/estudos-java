@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/media/arthur/Disco Local HD/1 - Pessoal/.metadata/.plugins/org.eclipse.jdt.core
+2810682177.index
+1865797976.index
+3189021885.index

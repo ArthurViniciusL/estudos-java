@@ -1,0 +1,19 @@
+package arrays;
+
+public class ExecArray {
+
+	public static void main(String[] args) {
+
+		double[] notas = new double[] { 9.0, 7.0, 8.3 };
+
+		double[] notasAlunoA = new double[3];
+
+		for (int i = 0; i < notasAlunoA.length; i++) {
+			notasAlunoA[i] = notas[i];
+			System.out.printf("Notas do Aluno: %.fª - %.f", notasAlunoA[i], notas[i]);
+
+		}
+		
+	}
+
+}

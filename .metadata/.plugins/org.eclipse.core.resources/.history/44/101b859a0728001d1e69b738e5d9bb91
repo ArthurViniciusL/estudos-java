@@ -1,0 +1,18 @@
+package arrays;
+
+import java.util.Iterator;
+
+public class ExecArray {
+
+	public static void main(String[] args) {
+		double[] notasAlunoA = new double[3];
+		
+		for (Iterator iterator = collection.iterator(); iterator.hasNext();) {
+			type type = (type) iterator.next();
+			
+		}
+		
+		notasAlunoA[1] = 3;
+	}
+
+}
