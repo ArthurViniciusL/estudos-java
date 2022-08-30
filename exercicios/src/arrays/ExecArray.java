@@ -19,7 +19,10 @@ public class ExecArray {
 		//Exibindo com um toString();
 		String exibe = Arrays.toString(notasAlunoA);
 		System.out.println(exibe);
+				
+		//Foreach:
+		for (double exibindo : notasAlunoA) {
+			System.out.println(exibindo);
+		}
 	}
-
 }
-
