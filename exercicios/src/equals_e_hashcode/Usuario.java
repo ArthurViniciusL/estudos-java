@@ -1,4 +1,4 @@
-package Classe;
+package equals_e_hashcode;
 
 public class Usuario {
 	String nome;

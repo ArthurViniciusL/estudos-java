@@ -1,4 +1,4 @@
-package Classe;
+package equals_e_hashcode;
 
 public class Equals {
 	public static void main(String[] args) {
