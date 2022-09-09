@@ -1,11 +1,12 @@
 package equals_e_hashcode;
 
+import java.util.Objects;
+
 public class Usuario {
 	String nome;
 	String email;
-
-	/*
-	 // implementando o equals
+	
+	// implementando o equals
 	@Override
 	public boolean equals(Object obj) {
 
@@ -20,21 +21,31 @@ public class Usuario {
 		}
 		return saida;
 	}
-	*/
+
 	@Override
 	public int hashCode() {
 
 		return this.nome.length();
 	}
 	
-	// gerado pelo eclipse:
+	// Criado pelo eclipse:
 	/*
-	 * @Override public int hashCode() { return Objects.hash(email, nome); }
-	 * 
-	 * @Override public boolean equals(Object obj) { if (this == obj) return true;
-	 * if (obj == null) return false; if (getClass() != obj.getClass()) return
-	 * false; Usuario other = (Usuario) obj; return Objects.equals(email,
-	 * other.email) && Objects.equals(nome, other.nome); }
-	 */
+	@Override
+	public int hashCode() {
+		return Objects.hash(email, nome);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Usuario other = (Usuario) obj;
+		return Objects.equals(email, other.email) && Objects.equals(nome, other.nome);
+	}
+	*/
+	
 
 }
