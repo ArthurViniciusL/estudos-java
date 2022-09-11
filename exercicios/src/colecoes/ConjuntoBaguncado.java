@@ -11,8 +11,8 @@ public class ConjuntoBaguncado {
 		conjunto.add(1.2);
 		conjunto.add(true);
 		conjunto.add('t');
-		conjunto.add("teste");
-		conjunto.add("teste"); // duplicado
+		conjunto.add("arthur");
+		conjunto.add("arthur"); // duplicado
 
 		int tamanho = conjunto.size();
 		System.out.println("Tamanho: " + tamanho);
